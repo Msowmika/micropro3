@@ -1,0 +1,75 @@
+
+h1{
+ margin-left: 400px;
+ color: #FFFFFF;
+ margin-bottom: 10px;
+ font-weight: 800;
+ font-family: Inter;
+}
+
+#display{
+    font-weight: 800;
+    color: #FFFFFF;
+    text-align: right;
+    font-size: 50px;
+    padding-right: 10px;
+    font-family: Inter;
+    margin-left: 400px;
+    margin-top: 0px;
+    width: 582px;
+    height: 130px;
+    background-color: #181F32;
+}
+.container{
+    display: grid;
+    width: 40vw;
+    height: 70vh;
+    background-color: #000000;
+    filter: drop-shadow(16px,16px,#000000);
+    grid-template-rows: repeat(5,80px);
+    grid-template-columns: repeat(4,125px);
+    margin-left: 400px;
+    gap: 15px;
+    margin-top: 10px;
+    align-content: center;
+    justify-content: center;
+   
+    
+}
+
+button{
+    border-radius: 12px;
+    font-family: Inter;
+    font-weight: 800;
+    color: #3B4664;
+    
+}
+.calculator{
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #3B4664;
+
+}
+.del{
+    background-color:#3B4664 ;
+    color: #FFFFFF;
+}
+.container1{
+    display: grid;
+    gap: 15px;
+   grid-template-columns: repeat(2,265px) ;
+   grid-template-rows: (2,80px);
+}
+.reset{
+    color:#FFFFFF;
+    background-color: #3B4664;
+}
+.equal{
+    color: #FFFFFF;
+    background-color: #D13F30;
+}
+
+
+
+
