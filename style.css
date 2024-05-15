@@ -16,14 +16,14 @@ h1{
     font-family: Inter;
     margin-left: 400px;
     margin-top: 0px;
-    width: 582px;
+    width: 565px;
     height: 130px;
     background-color: #181F32;
 }
 .container{
     display: grid;
-    width: 40vw;
-    height: 70vh;
+    width: 580px;
+    height: 500px;
     background-color: #000000;
     filter: drop-shadow(16px,16px,#000000);
     grid-template-rows: repeat(5,80px);
